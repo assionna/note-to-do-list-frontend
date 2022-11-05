@@ -1,0 +1,20 @@
+.header {
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #fff;
+}
+ .route {
+   display: block;
+   border: 1px solid #b4b4b4;
+   background-color: white;
+   border-radius: 10px;
+   color: #818181;
+   padding: 8px 6px;
+   text-decoration: none;
+ }
+
+ .active {
+   border: 2px solid #3a3a3a;
+   background-color: white;
+   font-weight: bold;
+   color: #3a3a3a;
+ }

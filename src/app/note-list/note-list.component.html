@@ -1,0 +1,11 @@
+<div class="d-flex notes_list">
+  <div *ngIf="noteList?.length" class="d-flex flex-column dash-board">
+    <ul class="notes w-100">
+      <li *ngFor="let chapter of noteList"
+          [class.selected]="chapter === selectedNote"
+          (click)="onSelect(chapter)">
+        {{chapter.title}}
+      </li>
+    </ul>
+  </div>
+</div>
